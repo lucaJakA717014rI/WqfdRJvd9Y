@@ -1,4 +1,3 @@
-sudo: false
 
 # version automatically picked up from .ruby-version
 language: ruby
