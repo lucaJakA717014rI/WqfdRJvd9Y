@@ -1,5 +1,4 @@
 import pyodbc
-
 # Define the connection string
 conn = pyodbc.connect(
     "DRIVER={SQL Server};"
