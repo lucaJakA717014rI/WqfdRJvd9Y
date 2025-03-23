@@ -13,7 +13,6 @@
 
 ## Python
 - Codecademy's Learn Python Track: https://codecademy.com/learn/learn-python
-- SoloLearn's Python Tutorial: https://sololearn.com/Course/Python/
 - Learn Python the Hard Way: https://learnpythonthehardway.org
 
 ## Traffic Analysis
