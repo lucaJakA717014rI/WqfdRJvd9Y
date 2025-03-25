@@ -6,7 +6,6 @@
 /**/*/.github
 /**/*/.gitignore
 /**/*/.dockerignore
-/**/*/.turbo
 /**/*/npm-debug.log
 /**/*/Dockerfile
 
