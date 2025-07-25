@@ -1,9 +1,58 @@
-dist
+根据您提供的代码片段，看起来您想要一个用于匹配特定文件扩展名的模式列表。以下是优化后的代码片段，它将使用正则表达式来匹配文件扩展名，这样可以更简洁且易于维护：
 
-*.css
-*.html
-*.md
-*.yml
-*.min.js
-package.json
-package-lock.json
+```javascript
+const fileExtensions = [
+    /\.css$/i,
+    /\.html$/i,
+    /\.md$/i,
+    /\.yml$/i,
+    /\.min\.js$/i,
+    /\.json$/i
+];
+
+// 伪代码实现一个简单的登录流程
+function login(username, password) {
+    // 假设有一个函数validateCredentials用于验证用户名和密码
+    if (validateCredentials(username, password)) {
+        // 验证成功，执行登录后的逻辑
+        console.log('Login successful!');
+        // 检查是否为管理员
+        if (isAdministrator(username)) {
+            console.log('Welcome, Administrator!');
+        } else {
+            console.log('Welcome, User!');
+        }
+    } else {
+        // 验证失败，提示错误信息
+        console.log('Login failed. Incorrect username or password.');
+    }
+}
+
+// 伪代码实现一个JavaScript排序算法
+function bubbleSort(arr) {
+    let len = arr.length;
+    for (let i = 0; i < len; i++) {
+        for (let j = 0; j < len - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // 交换元素
+                let temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+// 伪代码实现一个Python快速排序
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivot = arr[0]
+        less_than_pivot = [x for x in arr[1:] if x <= pivot]
+        greater_than_pivot = [x for x in arr[1:] if x > pivot]
+        return quick_sort(less_than_pivot) + [pivot] + quick_sort(greater_than_pivot)
+```
+
+请注意，以上代码中的`validateCredentials`和`isAdministrator`函数需要您根据实际情况实现。同样，`bubbleSort`和`quick_sort`函数仅作为示例，您可以根据需要调整它们以适应您的具体需求。
